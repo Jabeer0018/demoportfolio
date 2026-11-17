@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Jabeer | 1st Year B.Tech CSE (AI) Portfolio</title>
+    <meta name="description" content="Portfolio of SK Jabeer - 1st Year B.Tech CSE (AI) Student at Newton School of Technology, SMRU Campus Hyderabad. Python learner, CLI enthusiast, vibe coder, and ICPC / Construct 2.0 participant.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Sticky Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-asterisk">✳</span>
+                <span class="logo-name">SK Jabeer</span>
+                <span class="logo-tag">CSE-AI</span>
+            </a>
+
+            <!-- Pure CSS Mobile Menu Checkbox Hack -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#milestones" class="nav-link">Milestones</a>
+                <a href="#vibe-coding" class="nav-link">Vibe Coding</a>
+                <a href="#contact" class="nav-link btn-nav">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Expanded Grand Scenic Coastal Banner with Enhanced High-Definition Sea Motion -->
+        <section id="hero" class="scenic-banner-section">
+            <div class="scenic-canvas">
+                <!-- High-Quality Pristine Cropped Landscape Artwork (No old mockup text) -->
+                <img src="assets/scenic_ocean.jpg" alt="Coastal sunset horizon with ocean and cliffs" class="scenic-bg-img">
+
+                <!-- Ambient Sun Flare & Atmospheric Sunset Glow -->
+                <div class="sun-flare" aria-hidden="true"></div>
+                <div class="sun-horizon-glow" aria-hidden="true"></div>
+
+                <!-- Soaring & Diving Vector Seagulls with Animated Wings -->
+                <div class="seagulls-sky" aria-hidden="true">
+                    <!-- Seagull 1: High graceful soaring glider -->
+                    <div class="seagull seagull-high">
+                        <svg viewBox="0 0 50 24" class="seagull-svg">
+                            <path class="wing wing-l" d="M25 15 C 16 2, 8 2, 0 10 C 9 7, 18 10, 25 15 Z" />
+                            <path class="wing wing-r" d="M25 15 C 34 2, 42 2, 50 10 C 41 7, 32 10, 25 15 Z" />
+                            <ellipse cx="25" cy="14" rx="2" ry="4" fill="#18181b"/>
+                        </svg>
+                    </div>
+
+                    <!-- Seagull 2: Mid-distance circling bird -->
+                    <div class="seagull seagull-mid">
+                        <svg viewBox="0 0 50 24" class="seagull-svg">
+                            <path class="wing wing-l" d="M25 15 C 16 2, 8 2, 0 10 C 9 7, 18 10, 25 15 Z" />
+                            <path class="wing wing-r" d="M25 15 C 34 2, 42 2, 50 10 C 41 7, 32 10, 25 15 Z" />
+                            <ellipse cx="25" cy="14" rx="2" ry="4" fill="#18181b"/>
+                        </svg>
+                    </div>
+
+                    <!-- Seagull 3: Low flight gliding across wave crests -->
+                    <div class="seagull seagull-low">
+                        <svg viewBox="0 0 50 24" class="seagull-svg">
+                            <path class="wing wing-l" d="M25 15 C 16 2, 8 2, 0 10 C 9 7, 18 10, 25 15 Z" />
+                            <path class="wing wing-r" d="M25 15 C 34 2, 42 2, 50 10 C 41 7, 32 10, 25 15 Z" />
+                            <ellipse cx="25" cy="14" rx="2" ry="4" fill="#18181b"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Grand Ocean Motion System (Layered Wave Physics & Sun Shimmer) -->
+                <div class="grand-ocean-motion" aria-hidden="true">
+                    <!-- 1. Golden Sunlight Specular Shimmer on Ocean Surface -->
+                    <div class="water-sun-shimmer">
+                        <span class="glint-wave glint-1"></span>
+                        <span class="glint-wave glint-2"></span>
+                        <span class="glint-wave glint-3"></span>
+                        <span class="glint-wave glint-4"></span>
+                        <span class="glint-wave glint-5"></span>
+                        <span class="glint-wave glint-6"></span>
+                    </div>
+
+                    <!-- 2. Crashing Cliff Spray along Rocky Shoreline (Left) -->
+                    <div class="cliff-breakers-spray">
+                        <span class="spray-puff spray-1"></span>
+                        <span class="spray-puff spray-2"></span>
+                        <span class="spray-puff spray-3"></span>
+                        <span class="spray-puff spray-4"></span>
+                    </div>
+
+                    <!-- 3. Deep Ocean Swell (Layer 1: Distant Calm Current) -->
+                    <div class="wave-ribbon ribbon-depth">
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 45 C 180 20, 360 70, 540 45 C 720 20, 900 70, 1080 45 C 1260 20, 1440 70, 1440 45 L 1440 100 L 0 100 Z" fill="rgba(14, 68, 126, 0.42)"/>
+                        </svg>
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 45 C 180 20, 360 70, 540 45 C 720 20, 900 70, 1080 45 C 1260 20, 1440 70, 1440 45 L 1440 100 L 0 100 Z" fill="rgba(14, 68, 126, 0.42)"/>
+                        </svg>
+                    </div>
+
+                    <!-- 4. Mid-Water Rolling Turquoise Waves (Layer 2) -->
+                    <div class="wave-ribbon ribbon-mid">
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 50 C 240 75, 480 25, 720 50 C 960 75, 1200 25, 1440 50 L 1440 100 L 0 100 Z" fill="rgba(20, 140, 205, 0.48)"/>
+                        </svg>
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 50 C 240 75, 480 25, 720 50 C 960 75, 1200 25, 1440 50 L 1440 100 L 0 100 Z" fill="rgba(20, 140, 205, 0.48)"/>
+                        </svg>
+                    </div>
+
+                    <!-- 5. Frothy Crests & Rolling Surf Breakers (Layer 3) -->
+                    <div class="wave-ribbon ribbon-crest">
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 58 C 160 38, 320 78, 480 58 C 640 38, 800 78, 960 58 C 1120 38, 1280 78, 1440 58 L 1440 100 L 0 100 Z" fill="rgba(255, 255, 255, 0.65)"/>
+                        </svg>
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 58 C 160 38, 320 78, 480 58 C 640 38, 800 78, 960 58 C 1120 38, 1280 78, 1440 58 L 1440 100 L 0 100 Z" fill="rgba(255, 255, 255, 0.65)"/>
+                        </svg>
+                    </div>
+
+                    <!-- 6. Foreground Breaking White Foam & Surf (Layer 4) -->
+                    <div class="wave-ribbon ribbon-surf">
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 68 C 200 52, 400 84, 600 68 C 800 52, 1000 84, 1200 68 C 1320 58, 1380 78, 1440 68 L 1440 100 L 0 100 Z" fill="rgba(255, 255, 255, 0.9)"/>
+                        </svg>
+                        <svg class="ocean-svg-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                            <path d="M 0 68 C 200 52, 400 84, 600 68 C 800 52, 1000 84, 1200 68 C 1320 58, 1380 78, 1440 68 L 1440 100 L 0 100 Z" fill="rgba(255, 255, 255, 0.9)"/>
+                        </svg>
+                    </div>
+
+                    <!-- 7. Luxurious Natural Fog & Mist Dissolve into White Body -->
+                    <div class="ocean-mist-dissolve"></div>
+                </div>
+            </div>
+
+            <!-- Hero Persona Header -->
+            <div class="container hero-container">
+                <div class="hero-badge">
+                    <span class="status-indicator"></span>
+                    <span>1st Year B.Tech CSE (AI) &bull; Newton School of Technology &bull; SMRU Campus Hyderabad</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Engineering Modern Tech with <br>
+                    <span class="gradient-text">Python, CLI &amp; Vibe Coding</span>
+                </h1>
+
+                <p class="hero-description">
+                    Hello! I am <strong>SK Jabeer</strong> from India 🇮🇳. A passionate first-year student exploring the frontiers of Artificial Intelligence, mastering command line workflows, competing in <strong>ICPC</strong>, contributing to <strong>Hacktoberfest</strong>, and solving real-time problems in <strong>Construct 2.0</strong> through pure vibe coding.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#milestones" class="btn btn-primary">
+                        <span>View Milestones</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#skills" class="btn btn-secondary">Explore Skills</a>
+                    <a href="#vibe-coding" class="btn btn-secondary">What is Vibe Coding?</a>
+                </div>
+
+                <!-- Credential Metric Pills -->
+                <div class="credential-bar">
+                    <div class="cred-item">
+                        <span class="cred-value">ICPC</span>
+                        <span class="cred-label">Participant</span>
+                    </div>
+                    <div class="cred-sep"></div>
+                    <div class="cred-item">
+                        <span class="cred-value">Construct 2.0</span>
+                        <span class="cred-label">Real-time Solver</span>
+                    </div>
+                    <div class="cred-sep"></div>
+                    <div class="cred-item">
+                        <span class="cred-value">Hacktoberfest</span>
+                        <span class="cred-label">Contributor</span>
+                    </div>
+                    <div class="cred-sep"></div>
+                    <div class="cred-item">
+                        <span class="cred-value">NST @ SMRU</span>
+                        <span class="cred-label">Hyderabad, India</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Editorial Showcase Section (Clean Reference UI Architecture) -->
+        <section id="about" class="section section-reference-ui">
+            <div class="container">
+                <div class="reference-showcase-box">
+                    <!-- Brand Identity & Bio Column -->
+                    <div class="ref-col-brand">
+                        <div class="ref-logo-wrap">
+                            <span class="ref-logo-icon">✳</span>
+                            <span class="ref-logo-text">SK Jabeer</span>
+                        </div>
+                        <p class="ref-quote">
+                            "Hands-on building was a game changer for my learning. Moving fast from terminal commands to working prototypes in Construct 2.0 transformed how I create."
+                        </p>
+                        
+                        <!-- Outlined Social Icons Row -->
+                        <div class="ref-socials">
+                            <a href="https://github.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                            </a>
+                            <a href="https://x.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="X (Twitter)">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4l16 16M4 20L20 4"/>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="9" width="4" height="12"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                    <path d="M16 9a4 4 0 0 1 4 4v7h-4v-7a2 2 0 0 0-4 0v7H8V9h4v1.8a4 4 0 0 1 4-1.8z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:jabeer@example.com" class="ref-social-icon" aria-label="Email / Message">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Main Links -->
+                    <div class="ref-link-col">
+                        <h3 class="ref-col-title">Main links</h3>
+                        <ul class="ref-links-list">
+                            <li><a href="#about">About SK Jabeer</a></li>
+                            <li><a href="#skills">How I Work &amp; Code</a></li>
+                            <li><a href="#vibe-coding">Why Vibe Coding</a></li>
+                            <li><a href="#milestones">Contests &amp; Events</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Journey & Contests -->
+                    <div class="ref-link-col">
+                        <h3 class="ref-col-title">Journey</h3>
+                        <ul class="ref-links-list">
+                            <li><a href="#milestones">NST @ SMRU Hyderabad</a></li>
+                            <li><a href="#milestones">Construct 2.0 Project</a></li>
+                            <li><a href="#milestones">ICPC Experience</a></li>
+                            <li><a href="#milestones">Hacktoberfest Open Source</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Tech & Tools -->
+                    <div class="ref-link-col">
+                        <h3 class="ref-col-title">Tech Focus</h3>
+                        <ul class="ref-links-list">
+                            <li><a href="#skills">Python Development</a></li>
+                            <li><a href="#skills">Command Line (CLI)</a></li>
+                            <li><a href="#skills">HTML5 &amp; CSS3 Only</a></li>
+                            <li><a href="#skills">AI &amp; Data Structures</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hands-On Skills Section -->
+        <section id="skills" class="section section-light-bg">
+            <div class="container">
+                <div class="section-heading-wrap">
+                    <span class="sub-tag">PRACTICAL EXPERTISE</span>
+                    <h2 class="main-title">Hands-On Skills &amp; Fluency</h2>
+                    <p class="subtitle">Every tool and language I use is backed by real execution and project work.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Card 1: Python -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">🐍</span>
+                            <span class="skill-tag">Active Focus</span>
+                        </div>
+                        <h3 class="skill-title">Python Programming</h3>
+                        <p class="skill-desc">
+                            Building logic, scripting tasks, mastering data structures, and laying the groundwork for Artificial Intelligence and algorithmic problem solving.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Momentum</span>
+                                <span>Daily Learner</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-python"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">Syntax &amp; Logic</span>
+                            <span class="mini-tag">Automation</span>
+                            <span class="mini-tag">AI Fundamentals</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: CLI Interface -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">⚡</span>
+                            <span class="skill-tag">Fluency</span>
+                        </div>
+                        <h3 class="skill-title">Command Line Interface (CLI)</h3>
+                        <p class="skill-desc">
+                            Navigating file systems, configuring environment variables, executing Git commands, and managing development dependencies with speed.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Comfort Level</span>
+                                <span>Terminal Native</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-cli"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">Bash / Zsh</span>
+                            <span class="mini-tag">Git Operations</span>
+                            <span class="mini-tag">Shell Tools</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Vibe Coding -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">✨</span>
+                            <span class="skill-tag">Demonstrated</span>
+                        </div>
+                        <h3 class="skill-title">Vibe Coding &amp; Rapid Prototyping</h3>
+                        <p class="skill-desc">
+                            Proven during <strong>Construct 2.0</strong>: rapidly translating complex concepts into working real-time software under high-pressure constraints.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Execution Speed</span>
+                                <span>High Agile</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-vibe"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">Construct 2.0</span>
+                            <span class="mini-tag">Fast Iteration</span>
+                            <span class="mini-tag">Problem Solving</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Pure HTML & CSS -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">🎨</span>
+                            <span class="skill-tag">Zero-JS Styling</span>
+                        </div>
+                        <h3 class="skill-title">Modern HTML5 &amp; CSS3</h3>
+                        <p class="skill-desc">
+                            Crafting elegant responsive web interfaces, complex SVG wave keyframes, glassmorphic layers, and accessible layouts strictly using HTML &amp; CSS.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Design Precision</span>
+                                <span>Clean &amp; Pure</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-web"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">CSS Keyframes</span>
+                            <span class="mini-tag">SVG Motion</span>
+                            <span class="mini-tag">Responsive Grid</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Competitive Problem Solving -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">🧠</span>
+                            <span class="skill-tag">ICPC Arena</span>
+                        </div>
+                        <h3 class="skill-title">Algorithms &amp; Problem Solving</h3>
+                        <p class="skill-desc">
+                            Participating in prestigious competitions like <strong>ICPC</strong>, tackling algorithmic edge cases, computational efficiency, and structured code.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Analytical Depth</span>
+                                <span>Competitive</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-algo"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">ICPC Contest</span>
+                            <span class="mini-tag">Edge Cases</span>
+                            <span class="mini-tag">Optimization</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Open Source -->
+                    <div class="skill-card">
+                        <div class="skill-top">
+                            <span class="skill-symbol">🌐</span>
+                            <span class="skill-tag">Global</span>
+                        </div>
+                        <h3 class="skill-title">Open Source Collaboration</h3>
+                        <p class="skill-desc">
+                            Engaging in <strong>Hacktoberfest</strong>: submitting pull requests, interacting with global maintainers, and maintaining high code standards.
+                        </p>
+                        <div class="skill-meter-wrap">
+                            <div class="meter-text">
+                                <span>Community</span>
+                                <span>Contributor</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill fill-oss"></div>
+                            </div>
+                        </div>
+                        <div class="tag-row">
+                            <span class="mini-tag">Hacktoberfest</span>
+                            <span class="mini-tag">Pull Requests</span>
+                            <span class="mini-tag">Version Control</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Milestones & Competitions Showcase -->
+        <section id="milestones" class="section">
+            <div class="container">
+                <div class="section-heading-wrap">
+                    <span class="sub-tag">PROVEN EXPERIENCES</span>
+                    <h2 class="main-title">Hackathons &amp; Competitions</h2>
+                    <p class="subtitle">Where theoretical curiosity meets high-stakes, real-world execution.</p>
+                </div>
+
+                <div class="milestones-grid">
+                    <!-- Milestone 1: Construct 2.0 -->
+                    <div class="milestone-card highlight-card">
+                        <div class="milestone-badge-pill pill-construct">CONSTRUCT 2.0 &bull; REAL-TIME SOLVER</div>
+                        <h3 class="milestone-title">Real-Time Project Solving via Vibe Coding</h3>
+                        <p class="milestone-text">
+                            In <strong>Construct 2.0</strong>, I confronted a real-time, high-pressure problem statement. Embracing the agile mindset of <em>vibe coding</em>, I rapidly translated the challenge into an interactive, functional project within the hackathon clock.
+                        </p>
+                        <div class="milestone-points">
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Solved a live problem under hackathon conditions</span>
+                            </div>
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Validated rapid vibe-coding as a pragmatic engineering superpower</span>
+                            </div>
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Delivered a working end-to-end prototype</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2: ICPC -->
+                    <div class="milestone-card">
+                        <div class="milestone-badge-pill pill-icpc">ICPC &bull; COMPETITIVE PROGRAMMING</div>
+                        <h3 class="milestone-title">International Collegiate Programming Contest</h3>
+                        <p class="milestone-text">
+                            Participated in <strong>ICPC</strong>, testing algorithmic aptitude against top university peers. Tackled complex algorithmic logic under rigorous time limits and strict judge criteria.
+                        </p>
+                        <div class="milestone-points">
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>High-intensity computational reasoning</span>
+                            </div>
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Precision debugging under timer pressure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 3: Hacktoberfest -->
+                    <div class="milestone-card">
+                        <div class="milestone-badge-pill pill-hacktober">HACKTOBERFEST &bull; OPEN SOURCE</div>
+                        <h3 class="milestone-title">Worldwide Open-Source Contribution</h3>
+                        <p class="milestone-text">
+                            Participated in the worldwide <strong>Hacktoberfest</strong> movement. Practiced the full Git CLI cycle: cloning, branching, solving issues, and submitting verified pull requests.
+                        </p>
+                        <div class="milestone-points">
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Hands-on Git CLI proficiency</span>
+                            </div>
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>International developer collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: Education -->
+                    <div class="milestone-card">
+                        <div class="milestone-badge-pill pill-edu">ACADEMIC JOURNEY &bull; 1ST YEAR UNDERGRAD</div>
+                        <h3 class="milestone-title">B.Tech in CSE (Artificial Intelligence)</h3>
+                        <p class="milestone-text">
+                            Currently enrolled in the 1st year at <strong>Newton School of Technology, SMRU Campus Hyderabad, India</strong>. Immersing in an industry-centric curriculum focused on Python, algorithms, and AI systems.
+                        </p>
+                        <div class="milestone-points">
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Specialization in Artificial Intelligence</span>
+                            </div>
+                            <div class="point-item">
+                                <span class="point-check">✓</span>
+                                <span>Located in Hyderabad's premier cyber and tech hub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vibe Coding Deep-Dive Section -->
+        <section id="vibe-coding" class="section section-light-bg">
+            <div class="container">
+                <div class="vibe-banner-box">
+                    <div class="vibe-header">
+                        <span class="sub-tag">ENGINEERING PHILOSOPHY</span>
+                        <h2 class="vibe-title">What is "Vibe Coding" to Me?</h2>
+                        <p class="vibe-subtitle">
+                            It's the ability to translate thoughts into functional code at lightning speed without getting blocked by friction or bloated workflows.
+                        </p>
+                    </div>
+
+                    <div class="vibe-columns">
+                        <div class="vibe-col-item">
+                            <div class="vibe-icon-num">01</div>
+                            <h4>CLI As A Second Nature</h4>
+                            <p>No sluggish clicking. The command line is my direct bridge to files, Git, packages, and scripts.</p>
+                        </div>
+                        <div class="vibe-col-item">
+                            <div class="vibe-icon-num">02</div>
+                            <h4>Speed Under Pressure</h4>
+                            <p>Validated in Construct 2.0: moving swiftly from problem statement to functional, tested solution.</p>
+                        </div>
+                        <div class="vibe-col-item">
+                            <div class="vibe-icon-num">03</div>
+                            <h4>AI-Augmented Intuition</h4>
+                            <p>As a 1st year CSE-AI student, I use modern AI paradigms to build smarter and accelerate learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card-box">
+                    <span class="sub-tag">CONNECT &bull; COLLABORATE</span>
+                    <h2 class="main-title">Let's Build Something Great</h2>
+                    <p class="contact-desc">
+                        Looking for a passionate hackathon teammate, a driven 1st-year CSE AI student, or want to discuss Python, CLI workflows, and vibe coding? Reach out!
+                    </p>
+
+                    <div class="contact-badge-grid">
+                        <div class="c-badge">
+                            <span class="c-icon">📍</span>
+                            <span class="c-text">Hyderabad, India</span>
+                        </div>
+                        <div class="c-badge">
+                            <span class="c-icon">🏫</span>
+                            <span class="c-text">NST @ SMRU Hyderabad</span>
+                        </div>
+                        <div class="c-badge">
+                            <span class="c-icon">🤖</span>
+                            <span class="c-text">B.Tech CSE (AI) &bull; 1st Year</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions-row">
+                        <a href="mailto:jabeer@example.com" class="btn btn-primary btn-large">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                            <span>Send an Email</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="btn btn-secondary btn-large">
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Faithful Minimalist Footer (Matching Mockup Reference) -->
+    <footer class="footer-reference">
+        <div class="container footer-grid">
+            <!-- Brand & Socials -->
+            <div class="footer-brand-col">
+                <div class="footer-logo">
+                    <span class="footer-asterisk">✳</span>
+                    <span class="footer-name">SK Jabeer</span>
+                </div>
+                <p class="footer-tagline">
+                    "Sales tool was a game changer for our business. Their attention to detail really transformed our results." &mdash; Bringing this same meticulous craft to software and AI engineering.
+                </p>
+                <div class="footer-social-row">
+                    <a href="https://github.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="X (Twitter)">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4l16 16M4 20L20 4"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                            <path d="M16 9a4 4 0 0 1 4 4v7h-4v-7a2 2 0 0 0-4 0v7H8V9h4v1.8a4 4 0 0 1 4-1.8z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:jabeer@example.com" class="ref-social-icon" aria-label="Email">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Links Column 1: Main links -->
+            <div class="footer-link-group">
+                <h4 class="footer-heading">Main links</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#skills">How we work</a></li>
+                    <li><a href="#vibe-coding">Why choose us</a></li>
+                    <li><a href="#milestones">Reviews</a></li>
+                </ul>
+            </div>
+
+            <!-- Links Column 2: Company / Academic -->
+            <div class="footer-link-group">
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#milestones">Vision &amp; Mission</a></li>
+                    <li><a href="#about">Our team</a></li>
+                    <li><a href="#contact">Careers</a></li>
+                    <li><a href="#skills">Integrations</a></li>
+                </ul>
+            </div>
+
+            <!-- Links Column 3: Utility pages -->
+            <div class="footer-link-group">
+                <h4 class="footer-heading">Utility pages</h4>
+                <ul class="footer-links">
+                    <li><a href="#contact">Terms &amp; condition</a></li>
+                    <li><a href="#contact">Privacy policy</a></li>
+                    <li><a href="#contact">License</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom-bar">
+            <p>&copy; 2026 <strong>SK Jabeer</strong> &bull; Newton School of Technology (SMRU Campus Hyderabad) &bull; Built with pure <strong>HTML &amp; CSS</strong>.</p>
+            <a href="#hero" class="ref-back-top" aria-label="Back to top">
+                <span>Top</span>
+                <span>&uarr;</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
