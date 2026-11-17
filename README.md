@@ -1,43 +1,76 @@
-# SK Jabeer - Developer Portfolio
+# SK Jabeer — Personal Portfolio
 
-A modern, high-performance static portfolio website built strictly using **HTML5 and CSS3** (No JavaScript), featuring an active **scenic ocean motion engine** and a clean editorial UI inspired by minimalist design aesthetics.
+> **Editorial digital portfolio** — Pure HTML & CSS only. Zero JavaScript.
 
-## 🌊 Key Features
-- **Active Motion Scenic Ocean**:
-  - The coastal landscape features **living motion**:
-    - **Multi-layer SVG Ocean Waves**: Deep ocean swell, rolling turquoise current, and foaming crest breakers continuously flowing with seamless CSS keyframes.
-    - **Sun Reflection Shimmer**: Shimmering golden specular glints flickering across the water directly below the setting sun.
-    - **Crashing Cliff Spray**: Animated foam bursts against the coastal rocks.
-    - **Flying & Gliding Seagulls**: Birds soaring across the sky and sea with synchronized flapping wings (`@keyframes wingFlap`).
-    - **Pulsing Sun Corona**: Soft breathing solar halo on the horizon.
-    - **Seamless Mist Dissolve**: Gentle gradient fading the water into the pristine white editorial content section.
-- **Minimalist Editorial UI**:
-  - Brand asterisk icon `✳ SK Jabeer`.
-  - Balanced multi-column layout directly mirroring clean modern product design.
-  - Social media row (GitHub, X/Twitter, LinkedIn, Email).
-- **Personalized Content**:
-  - **SK Jabeer** &bull; 1st Year B.Tech in CSE (Artificial Intelligence).
-  - **Newton School of Technology, SMRU Campus Hyderabad, India**.
-  - **Learning Python** with active momentum.
-  - **CLI (Command Line Interface)** native fluency.
-  - **Construct 2.0**: Solved a real-time problem statement using **vibe coding**.
-  - **ICPC**: Participated in the prestigious competitive programming contest.
-  - **Hacktoberfest**: Global open source contributions and Git CLI workflows.
+---
 
-## 📂 Project Structure
-```
-LAB - AI/
-├── assets/
-│   ├── scenic_ocean.jpg       # Cropped pristine coastal landscape artwork
-│   └── original_mockup.jpg    # Reference mockup copy
-├── index.html                 # Semantic HTML5 structure with SVG wave layers
-├── styles.css                 # Ocean motion keyframes, design system & responsive styling
-└── README.md                  # Project overview & instructions
-```
+## Overview
 
-## 🌐 How to Preview
-Open [index.html](file:///Users/jabeer/LAB%20-%20AI/index.html) directly in any modern browser, or run:
+A cinematic, immersive personal portfolio for **SK Jabeer**, a first-year B.Tech CSE (Artificial Intelligence) student at Newton School of Technology, SMRU Campus, Hyderabad, India.
+
+Designed with a Mowa Studio-caliber editorial aesthetic: deep architectural charcoal noir, warm alabaster typography, and a restrained vermilion accent system.
+
+---
+
+## Sections
+
+| # | Section | Heading |
+|---|---------|---------|
+| 03 | Education | *Where It Begins.* |
+| 04 | Skills & Learning | *Currently Exploring.* |
+| 05 | Events & Participation | *Beyond the Classroom.* |
+| 06 | My Journey | *Still in the Making.* |
+| 07 | Contact | *Let's Build Something.* |
+
+---
+
+## Design System
+
+- **Background**: Deep charcoal noir `#0a0b0d`
+- **Primary text**: Warm alabaster `#f4f3ee`
+- **Accent**: Vermilion `#e63946`
+- **Secondary**: Stone `#8e8d88`
+- **Fonts**: Syne (display) · Plus Jakarta Sans (body) · Space Mono (mono/metadata)
+- **Layout**: Asymmetrical editorial grids, 1px architectural hairlines, oversized section numbers
+
+---
+
+## Features
+
+- ✅ Pure HTML & CSS — strictly zero JavaScript
+- ✅ Interactive CSS 3D kinetic sculpture (gyroscopic orbital rings + faceted monogram cube)
+- ✅ Hover-reactive editorial list rows (Section 04)
+- ✅ Generative SVG wireframe artworks (Section 05)
+- ✅ Continuous vertical timeline spine (Section 06)
+- ✅ Monumental contact section with animated email link
+- ✅ Pure CSS hamburger mobile menu
+- ✅ Fully responsive (desktop → tablet → mobile)
+- ✅ Smooth CSS animations: fade-in, ambient glow, orbital rings, node floats, red pulse
+
+---
+
+## Run Locally
+
 ```bash
-python3 -m http.server 8000
+cd "LAB - AI"
+python3 -m http.server 8080
+# Open http://localhost:8080
 ```
-Then visit `http://localhost:8000` in your web browser.
+
+---
+
+## Identity
+
+| Field | Value |
+|-------|-------|
+| Name | SK Jabeer |
+| Degree | B.Tech CSE (Artificial Intelligence) — First Year |
+| College | Newton School of Technology, SMRU Campus, Hyderabad |
+| Email | jabeerjtj@gmail.com |
+| Location | Hyderabad, India |
+| Events | ICPC · Hacktoberfest · Construct 2.0 |
+| Learning | Python · CLI · Problem Solving · Exploring Technology |
+
+---
+
+*© SK Jabeer — Built with curiosity.*
